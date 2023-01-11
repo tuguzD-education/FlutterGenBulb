@@ -9,15 +9,15 @@ class Game implements Node {
   @override
   final Id<Game> id;
   final String name;
-  final String? desc;
-  final dartz.IList<Mode> modes;
+  final String? summary;
+  final dartz.IList<Mode> gameModes;
   final dartz.IList<Genre> genres;
 
   const Game({
     required this.id,
     required this.name,
-    required this.desc,
-    required this.modes,
+    required this.summary,
+    required this.gameModes,
     required this.genres,
   });
 }
